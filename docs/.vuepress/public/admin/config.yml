@@ -35,4 +35,5 @@ collections:
         format: 'YYYY-MM-DD'
         time_format: false
         required: true
+      - {label: "Title", name: "title", widget: "markdown", default: "Song title"}
       - {label: "Body", name: "body", widget: "markdown", default: "# Song title (Composer/ Artist)"}
