@@ -13,7 +13,7 @@ display_url: https://vuedn.netlify.app/
 media_folder: "docs/.vuepress/public/media" # Media files will be stored in the repo under docs/.vuepress/public/media
 public_folder: "/media" # The src attribute for uploaded media will begin with /media
 editor:
-  preview: false # disabled markdown preview in CMS
+  preview: true # disabled markdown preview in CMS
 collections:
   - name: "songs" # Used in routes, e.g., /admin/collections/songs
     label: "Songs" # Used in the UI
